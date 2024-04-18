@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+
+  width: 35rem;
+}
+
+.input-container {
+  display: flex;
+  margin-left: 15px;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #9796f0;
+}
+
+input {
+  width: 150px;
+  border-top: none;
+  border-bottom: 1px solid #9897f0;
+  border-right: 0.5px solid #9796f0;
+  border-left: 0.5px solid #9796f0;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.appointments-img {
+  height: 10rem;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  color: white;
+  border-radius: 5px;
+  width: 40px;
+  border: none;
+  font-size: 12px;
+  padding: 3px;
+  margin-top: 8px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.appointment-card {
+  display: flex;
+  justify-content: space-between;
+}
